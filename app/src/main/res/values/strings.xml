@@ -1,3 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Kotlin-3-2</string>
+    <string name="app_name">30 Days of Wellness</string>
+    <string name="main_title">30 Days of Wellness</string>
+    <string name="day_label">Day %d</string>
+    <string name="detail_title">Tip Details</string>
+    <string name="back_button_description">Go back</string>
+    <string name="tip_image_description">Illustration for tip</string>
+
+    <string name="tip_title_1">Morning Hydration</string>
+    <string name="tip_title_2">Deep Breathing</string>
+    <string name="tip_title_3">Mindful Walking</string>
+    <string name="tip_title_4">Digital Detox</string>
+    <string name="tip_title_5">Gratitude Journal</string>
+
+    <string name="tip_short_1">Start your day with a glass of warm water to boost metabolism.</string>
+    <string name="tip_short_2">Practice 5 minutes of deep breathing to reduce stress.</string>
+    <string name="tip_short_3">Take a 15-minute walk while focusing on your surroundings.</string>
+    <string name="tip_short_4">Spend one hour without any electronic devices.</string>
+    <string name="tip_short_5">Write down three things you are grateful for today.</string>
+
+    <string name="tip_full_1">Starting your morning with a glass of warm water helps kickstart your metabolism, aids digestion, and helps flush out toxins. Add a slice of lemon for extra vitamin C and flavor. This simple habit can improve your skin, boost energy levels, and support overall health. Try to drink at least one full glass within 30 minutes of waking up.</string>
+    <string name="tip_full_2">Deep breathing activates the parasympathetic nervous system, reducing stress hormones and lowering blood pressure. Try the 4-7-8 technique: inhale for 4 seconds, hold for 7, and exhale for 8. Practice this for 5 minutes each morning to start your day with clarity and calm. Regular practice can improve focus and emotional regulation.</string>
+    <string name="tip_full_3">Mindful walking is a form of meditation in motion. Instead of rushing, pay attention to each step, the sensation of your feet touching the ground, the sounds around you, and the feeling of air on your skin. A 15-minute mindful walk can reduce anxiety, improve mood, and help you reconnect with the present moment.</string>
+    <string name="tip_full_4">A digital detox means consciously stepping away from screens and notifications. Spend one hour doing offline activities like reading, cooking, gardening, or simply being present. This break helps reduce mental fatigue, improves sleep quality, and allows you to reconnect with yourself and your surroundings.</string>
+    <string name="tip_full_5">Keeping a gratitude journal helps shift your focus from what is lacking to what is abundant in your life. Each day, write down three specific things you are grateful for. Research shows this practice can increase happiness, reduce depression, and improve overall life satisfaction over time.</string>
 </resources>

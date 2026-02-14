@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardBackgroundColor="@color/card_background"
+    android:clickable="true"
+    android:focusable="true"
+    app:rippleColor="@color/secondary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dayNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_medium"
+            android:textSize="@dimen/day_text_size"
+            android:textColor="@color/day_badge_text"
+            android:background="@drawable/day_badge_background"
+            android:paddingStart="@dimen/day_badge_padding_horizontal"
+            android:paddingEnd="@dimen/day_badge_padding_horizontal"
+            android:paddingTop="@dimen/day_badge_padding_vertical"
+            android:paddingBottom="@dimen/day_badge_padding_vertical"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tipTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/card_padding"
+            android:layout_marginEnd="@dimen/card_padding"
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@color/title_text"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/tipImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/tip_image_description" />
+
+        <TextView
+            android:id="@+id/tipDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/card_padding"
+            android:textSize="@dimen/description_text_size"
+            android:textColor="@color/description_text"
+            android:maxLines="3"
+            android:ellipsize="end" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
